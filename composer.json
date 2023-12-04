@@ -1,5 +1,5 @@
 {
-  "name": "codephix/asaas-sdk",
+  "name": "luscalopez/asaas-sdk",
   "type"       : "library",
   "description": "Asaas.com PHP API Wrapper",
   "keywords"   : ["Asaas", "API", "Payment SaaS", "Credit Card", "Boleto"],
