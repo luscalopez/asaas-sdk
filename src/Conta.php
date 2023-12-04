@@ -13,7 +13,7 @@ class Conta {
         $this->http = $connection;
     }
 
-    // Retorna a listagem de cobranças
+    // Retorna a listagem de contas
     public function getAll(array $filtros = []){
         $filtro = '';
         if(is_array($filtros)){
@@ -32,14 +32,14 @@ class Conta {
         return $this->http->get('/accounts'.$filtro);
     }
 
-    // Retorna a listagem de cobranças
+    // Retorna a listagem de contas
     public function getConta(){
         return $this->http->get('/wallets');
     }
 
-    // Insere uma nova cobrança
-    public function create(array $dadosCobranca){
-        return $this->http->post('/accounts', $dadosCobranca);
+    // Insere uma nova contas
+    public function create(array $dadosConta){
+        return $this->http->post('/accounts', $dadosConta);
     }
 
 }
