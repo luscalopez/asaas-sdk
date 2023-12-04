@@ -1,8 +1,8 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace Luscalopez\Asaas;
 
-use CodePhix\Asaas\Connection;
+use Luscalopez\Asaas\Connection;
 
 class Parcelamento {
     public $http;

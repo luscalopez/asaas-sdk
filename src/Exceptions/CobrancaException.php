@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace CodePhix\Asaas\Exceptions;
+namespace Luscalopez\Asaas\Exceptions;
 
 /**
  * Description of CobrancaException

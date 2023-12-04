@@ -1,15 +1,15 @@
-# Asaas @CodePhix
+# Asaas @Luscalopez
 
 SDK não-oficial de integração á API do serviço www.asaas.com
 
-[![Maintainer](http://img.shields.io/badge/maintainer-@codephix-blue.svg?style=flat-square)](https://twitter.com/codephix)
-[![Source Code](https://img.shields.io/badge/source-codephix/asaas--sdk-blue.svg?style=flat-square)](https://github.com/codephix/asaas-sdk)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/codephix/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/codephix/asaas-sdk)
-[![Latest Version](https://img.shields.io/github/release/codephix/asaas-sdk.svg?style=flat-square)](https://github.com/codephix/asaas-sdk/releases)
+[![Maintainer](http://img.shields.io/badge/maintainer-@luscalopez-blue.svg?style=flat-square)](https://twitter.com/luscalopez)
+[![Source Code](https://img.shields.io/badge/source-luscalopez/asaas--sdk-blue.svg?style=flat-square)](https://github.com/luscalopez/asaas-sdk)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/luscalopez/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/luscalopez/asaas-sdk)
+[![Latest Version](https://img.shields.io/github/release/luscalopez/asaas-sdk.svg?style=flat-square)](https://github.com/luscalopez/asaas-sdk/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/codephix/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/codephix/asaas-sdk)
-[![Quality Score](https://img.shields.io/scrutinizer/g/codephix/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/codephix/asaas-sdk)
-[![Total Downloads](https://img.shields.io/packagist/dt/codephix/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/codephix/asaas-sdk)
+[![Build](https://img.shields.io/scrutinizer/build/g/luscalopez/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/luscalopez/asaas-sdk)
+[![Quality Score](https://img.shields.io/scrutinizer/g/luscalopez/asaas-sdk.svg?style=flat-square)](https://scrutinizer-ci.com/g/luscalopez/asaas-sdk)
+[![Total Downloads](https://img.shields.io/packagist/dt/luscalopez/asaas-sdk.svg?style=flat-square)](https://packagist.org/packages/luscalopez/asaas-sdk)
 
 
 ### Projeto em andamento
@@ -18,7 +18,7 @@ SDK não-oficial de integração á API do serviço www.asaas.com
 ## Installation
 
 ```bash
-composer require codephix/asaas-sdk
+composer require luscalopez/asaas-sdk
 ```
 
 Exemplo
@@ -29,7 +29,7 @@ Exemplo
 
 require 'vendor/autoload.php';
 
-use CodePhix\Asaas\Asaas;
+use Luscalopez\Asaas\Asaas;
 
 // Instancie o cliente Asaas usando a instância do adapter previamente criada.
 $asaas = new Asaas('seu_token_de_acesso');
@@ -831,33 +831,33 @@ Obs.: Esta é uma API não oficial. Foi feita com base na documentação disponi
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/codephix/asaas-sdk/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/luscalopez/asaas-sdk/blob/master/CONTRIBUTING.md) for details.
 
 
 Creditos
 --------
 
-* [Codephix - www.codephix.com](http://www.codephix.com)
+* [Codephix - www.Codephix.com](http://www.Codephix.com)
 
 Suporte
 -------
 
-[Para reportar um novo bug por favor abra um novo Issue no github](https://github.com/codephix/asaas-sdk/issues)
+[Para reportar um novo bug por favor abra um novo Issue no github](https://github.com/luscalopez/asaas-sdk/issues)
 
 
 ## Support
 
-###### Security: If you discover any security related issues, please email contato@codephix.com instead of using the issue tracker.
+###### Security: If you discover any security related issues, please email contato@luscalopez.com instead of using the issue tracker.
 
-Se você descobrir algum problema relacionado à segurança, envie um e-mail para contato@codephix.com em vez de usar o rastreador de problemas.
+Se você descobrir algum problema relacionado à segurança, envie um e-mail para contato@luscalopez.com em vez de usar o rastreador de problemas.
 
 Thank you
 
 ## Credits
 
-- [Max Alex](https://github.com/codephix) (Developer)
-- [All Contributors](https://github.com/codephix/asaas-sdk/contributors) (This Rock)
+- [Lucas López](https://github.com/luscalopez) (Developer)
+- [All Contributors](https://github.com/luscalopez/asaas-sdk/contributors) (This Rock)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/codephix/asaas-sdk/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/luscalopez/asaas-sdk/blob/master/LICENSE) for more information.
