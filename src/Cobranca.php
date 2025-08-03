@@ -1,9 +1,9 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace LuscaLopez\Asaas;
 
-use CodePhix\Asaas\Connection;
-use CodePhix\Asaas\Exceptions\CobrancaException;
+use LuscaLopez\Asaas\Connection;
+use LuscaLopez\Asaas\Exceptions\CobrancaException;
 use \Exception;
 
 class Cobranca
@@ -152,6 +152,7 @@ class Cobranca
                 'externalReference'    => '',
                 'installmentCount'     => '',
                 'installmentValue'     => '',
+                'totalValue'           => '',
                 'discount'             => '',
                 'interest'             => '',
                 'fine'                 => '',
@@ -183,6 +184,7 @@ class Cobranca
                 'externalReference'    => '',
                 'installmentCount'     => '',
                 'installmentValue'     => '',
+                'totalValue'           => '',
                 'discount'             => '',
                 'interest'             => '',
                 'fine'                 => '',
@@ -204,6 +206,6 @@ class Cobranca
  * */
     public function cobranca_valid($cobranca)
     {
-        return !((empty($cobranca['customer']) or empty($cobranca['billingType']) or empty($cobranca['value']) or empty($cobranca['dueDate'])) ? 1 : '');
+        return !((empty($cobranca['customer']) or empty($cobranca['billingType']) or empty($cobranca['dueDate'])) ? 1 : '');
     }
 }

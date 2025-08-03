@@ -1,8 +1,8 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace LuscaLopez\Asaas;
 
-use CodePhix\Asaas\Connection;
+use LuscaLopez\Asaas\Connection;
 use \Exception;
 
 class SubContas

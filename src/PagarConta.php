@@ -1,6 +1,6 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace LuscaLopez\Asaas;
 
 
 class PagarConta {

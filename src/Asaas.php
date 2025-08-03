@@ -1,14 +1,14 @@
 <?php
 
-namespace CodePhix\Asaas;
+namespace LuscaLopez\Asaas;
 
-use CodePhix\Asaas\Assinatura;
-use CodePhix\Asaas\Cliente;
-use CodePhix\Asaas\Cobranca;
-use CodePhix\Asaas\Extrato;
-use CodePhix\Asaas\Notificacao;
-use CodePhix\Asaas\Transferencia;
-use CodePhix\Asaas\Webhook;
+use LuscaLopez\Asaas\Assinatura;
+use LuscaLopez\Asaas\Cliente;
+use LuscaLopez\Asaas\Cobranca;
+use LuscaLopez\Asaas\Extrato;
+use LuscaLopez\Asaas\Notificacao;
+use LuscaLopez\Asaas\Transferencia;
+use LuscaLopez\Asaas\Webhook;
 
 class Asaas {
 
@@ -32,6 +32,7 @@ class Asaas {
     public $Conta;
     public $Finance;
     public $SubContas;
+    public $Checkout;
 
     private $connection;
 
@@ -58,6 +59,7 @@ class Asaas {
         $this->Conta     = new Conta($this->connection);
         $this->Finance     = new Finance($this->connection);
         $this->SubContas     = new SubContas($this->connection);
+        $this->Checkout     = new Checkout($this->connection);
     }
 
     public function Assinatura(){
@@ -150,4 +152,8 @@ class Asaas {
         return $this->webhook;
     }
 
+    public function Checkout(){
+        $this->Checkout     = new Checkout($this->connection);
+        return $this->Checkout;
+    }
 }
