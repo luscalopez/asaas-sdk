@@ -206,6 +206,22 @@ class Cobranca
  * */
     public function cobranca_valid($cobranca)
     {
-        return !((empty($cobranca['customer']) or empty($cobranca['billingType']) or empty($cobranca['dueDate'])) ? 1 : '');
+        return !(
+            empty($cobranca['customer']) ||
+            empty($cobranca['billingType']) ||
+            empty($cobranca['dueDate']) ||
+
+            (
+                !empty($cobranca['installmentCount']) && $cobranca['installmentCount'] > 1
+                    ? (
+                        !empty($cobranca['value']) ||
+                        (
+                            empty($cobranca['totalValue']) &&
+                            empty($cobranca['installmentValue'])
+                        )
+                    )
+                    : empty($cobranca['value'])
+            )
+        ) ? 1 : '';
     }
 }
